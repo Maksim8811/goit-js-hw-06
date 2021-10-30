@@ -1,7 +1,12 @@
 const input = document.querySelector(`#validation-input`)
 
+const dataAtribute = Number(input.dataset.length);
+
+
+
 const validInput = (event) => {
-    if (event.currentTarget.value.length === 6)
+
+    if (event.currentTarget.value.length === dataAtribute)
         
     {
         event.currentTarget.classList.add("valid");

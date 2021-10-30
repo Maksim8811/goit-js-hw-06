@@ -3,7 +3,7 @@ const listEl = document.querySelector("#categories");
 
 
 const liItem = document.querySelectorAll(".item");
-// console.log(liItem)
+
 console.log(`Number of categories: ${liItem.length} `);
 
 liItem.forEach(item => {
@@ -13,7 +13,6 @@ liItem.forEach(item => {
     console.log(`Elements: ${itemList.length}`);
     
 })
-
 
 
 
